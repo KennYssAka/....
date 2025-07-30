@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Player Widget</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #player {
+      margin-bottom: 20px;
+    }
+    #thumbnails {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    #thumbnails img {
+      width: 120px;
+      height: 90px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    #thumbnails img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <input type="text" id="searchInput" placeholder="Введите запрос">
+  <button id="searchBtn">Поиск</button>
+
+  <div id="player"></div>
+  <div id="thumbnails"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
