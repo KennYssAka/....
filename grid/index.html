@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Галерея фоновых картинок</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.9s ease;
+    }
+    .gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.gallery.active {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+}
+
+    img {
+      width: 350px;
+      height: 300px;
+      object-fit: cover;
+      cursor: pointer;
+      border: 3px solid transparent;
+      transition: border 0.3s, transform 0.3s;
+    }
+    img.selected {
+  background-color: rgba(255, 0, 0, 0); 
+  padding: 10px; 
+  border-radius: 10px; 
+  transform: scale(1.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+
+  </style>
+</head>
+<body>
+  
+
+<div class="gallery">
+  <img src="images/photo_2025-04-28_21-41-01.png" alt="1">
+  <img src="images/image_2025-04-28_21-39-13.png" alt="2">
+  <img src="images/photo_2025-04-28_21-42-43.png" alt="3">
+</div>
+
+<script>
+  const images = document.querySelectorAll('.gallery img');
+const gallery = document.querySelector('.gallery');
+
+images.forEach(img => {
+  img.addEventListener('click', () => {
+    gallery.classList.add('active');
+    document.body.style.backgroundImage = `url(${img.getAttribute('src')})`;
+    document.body.style.backgroundSize = 'cover';
+    document.body.style.backgroundPosition = 'center';
+
+    localStorage.setItem('selectedImage', img.getAttribute('src'));
+  });
+});
+
+const selectedImage = localStorage.getItem('selectedImage');
+if (selectedImage) {
+  document.body.style.backgroundImage = `url(${selectedImage})`;
+  document.body.style.backgroundSize = 'cover';
+  document.body.style.backgroundPosition = 'center';
+  gallery.classList.add('active');
+}
+
+</script>
+
+</body>
+</html>
