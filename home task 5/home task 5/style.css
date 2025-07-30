@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    max-height: 1461px;
+    background-color: #FFFFFF;
+}
+
+.myfreedom {
+    max-width: 196px;
+    max-height: 38px;
+    margin-top: 53px;
+    margin-left: 147px;
+    font-family: Mplus 1p;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 178%;
+    letter-spacing: 2px;
+    vertical-align: middle;        
+}
+
+.text-header {
+    position: absolute;
+    max-width: 462px;
+    max-height: 18px;
+    top: 65px;
+    left: 550px;
+    font-family: Mplus 1p;
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 208%;
+    letter-spacing: 2px;
+    vertical-align: middle;   
+    color: #080800; 
+}
+
+.vector {
+    position: absolute;
+    top: 60px;
+    left: 1082px;
+}
+
+.phone-number {
+    position: absolute;
+    top: 60px;
+    left: 1118px;
+    font-family: Mplus 1p;
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 208%;
+    letter-spacing: 2px;
+    vertical-align: middle;    
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+    width: 1440px;
+    height: 378px;
+    top: 80px;
+}
+
+.text-responsive-1 {
+    position: absolute;
+    max-width: 754px;
+    max-height: 75px;
+    top: 125px;
+    left: 149px;
+    font-family: Mplus 1p;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FCFCFC;        
+}
+
+.text-responsive-2 {
+    position: absolute;
+    max-width: 654px;
+    max-height: 40px;
+    top: 200px;
+    left: 149px;
+    font-family: Mplus 1p;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 2px;
+    color: #FCFCFC;    
+}
+
+.text-remember {
+    position: absolute;
+    top: 594px;
+    left: 147px;
+    font-family: Mplus 1p;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 208%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A22F32;
+}
+
+.text-main {
+    position: absolute;
+    top: 630px;
+    left: 147px;
+    max-width: 870px;
+    max-height: 120px;
+    font-family: Mplus 1p;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #30233D;
+}
+
+.html-bg{
+    position: absolute;
+    top: 810px;
+    left: 147px;
+    border-width: 1px;    
+}
+
+.html-image {
+    position: absolute;
+    max-width: 72px;
+    max-height: 72px;
+    top: 849px;
+    left: 183px;
+    border-radius: 15px;    
+}
+
+.text-html-1 {
+    position: absolute;
+    max-width: 290px;
+    max-height: 41px;
+    top: 954px;
+    left: 183px;
+    font-family: Mplus 1p;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #30233D;
+}
+
+.text-html-2 {
+    position: absolute;
+    max-width: 290px;
+    max-height: 133px;
+    top: 1008px;
+    left: 183px;
+    font-family: Mplus 1p;
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 163%;
+    letter-spacing: 0%;
+    color: #30233D;  
+}
+
+.css-bg {
+    position: absolute;
+    top: 810px;
+    left: 539px;
+    border-width: 1px;
+}
+
+.css-image {
+    position: absolute;
+    max-width: 72px;
+    max-height: 72px;
+    top: 849px;
+    left: 575px;
+    border-radius: 15px;    
+}
+
+.text-css-1 {
+    position: absolute;
+    max-width: 290px;
+    max-height: 41px;
+    top: 954px;
+    left: 575px;
+    font-family: Mplus 1p;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #30233D;
+}
+
+.text-css-2 {
+    position: absolute;
+    max-width: 290px;
+    max-height: 133px;
+    top: 1008px;
+    left: 575px;
+    font-family: Mplus 1p;
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 163%;
+    letter-spacing: 0%;
+    color: #30233D;    
+}
+
+.bookstrap-bg {
+    position: absolute;
+    top: 811px;
+    left: 931px;
+    border-width: 1px;    
+}
+
+.bookstrap-image {
+    position: absolute;
+    max-width: 72px;
+    max-height: 72px;
+    top: 849px;
+    left: 967px;
+    border-radius: 15px;
+}
+
+.text-bookstrap-1 {
+    position: absolute;
+    max-width: 290px;
+    max-height: 41px;
+    top: 955px;
+    left: 967px;
+    font-family: Mplus 1p;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #30233D;    
+}
+
+.text-bookstrap-2 {
+    position: absolute;
+    max-width: 290px;
+    max-height: 159px;
+    top: 1009px;
+    left: 967px;
+    font-family: Mplus 1p;
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 163%;
+    letter-spacing: 0%;
+    color: #30233D;    
+}
+
+.footer-bg {
+    position: relative;
+    display: inline-block;
+    max-width: 1440px;
+    max-height: 198px;
+    top: 810px;
+}
+
+.footer-logo {
+    position: absolute;
+    margin-left: 147px;
+    margin-top: 685px;
+}
+
+.text-footer {
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 720px;
+    font-family: Mplus;
+    font-weight: 600;
+    font-size: 11.7px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.logo-instagram{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 1170px;
+}
+
+.logo-vk {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 1217px;
+}
